@@ -1,32 +1,4 @@
 /*
-* RegistrationHacks Style File
-* http://bit.ly/1ywfhq7
-*/
-/* Open Sans Google Font */
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:600,700);
-/* Montserrat Google Font */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-
-/*
- * Primary Blue: #44D5FF;
- * Dark Blue: #0F2C34;
- * Primary Pink: #FF7FA8;
- */
-* {
-  font-family: 'Open Sans';
-  font-weight: 600;
-}
-
-body {
-  background-color: #F5699C;
-}
-
-section {
-  overflow-x: hidden;
-}
-
-/* Custom CSS */
-/*
  * Globals
  */
 /* Links */
@@ -51,14 +23,12 @@ a:hover {
  * Base structure
  */
 html,
-body,
-section {
+body {
   height: 100%;
   background-color: #fff;
 }
 
-body,
-section {
+body {
   color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
